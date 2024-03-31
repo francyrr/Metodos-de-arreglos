@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 250px;
+    border: 2px black solid;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+}
+section{
+    background-color: #ececec;
+    padding: 15px;
+}
+#nuevaTarea{
+    padding: 10px;
+    padding-left: 280px;
+    padding-right: 280px;
+    border-radius: 2px;
+    border: 1px lightgray solid;
+}
+h3{
+    padding-top: 15px;
+}
+#agregarTarea{
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #1a7742;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+ul{
+    list-style: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 25px;
+   align-items: flex-end;
+   text-align: justify;
+   gap: 1px;
+   
+}
+
+p{
+    padding: 5px;
+}
+.titulos{
+    display: flex;
+    gap: 50px;
+    padding-left: 620px;
+}
